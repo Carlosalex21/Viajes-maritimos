@@ -1,0 +1,63 @@
+.destinos{
+    padding: 40px 40px 60px 40px;
+}
+
+.destinos .columna {
+    justify-content: space-between;
+}
+
+.destinos .card {
+    margin: 2rem;
+    padding: 20px;
+    display: grid;
+    flex-direction: column;
+    border: 3px solid black;
+    justify-content: space-evenly;
+}
+
+.card-group {
+    display: flex;
+    max-width: 800px;
+    min-width: 600px;
+}
+
+
+.navbar {
+    padding: 1rem;
+    background-color: darkcyan;
+
+}
+
+.destinos {
+    text-align: center;
+    color: aqua;
+    transition: all ease-in 0.5s;
+}
+
+.destinos:hover{ 
+    color: red;
+}
+
+.logo-navbar {
+    margin: 0px 2rem;
+}
+
+.nav-item{
+    color: white;
+    padding: 1.5rem;
+}
+
+.active {
+    color: white;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Esperiencia */
+
+.experiencia {
+    margin: 4rem;
+}
